@@ -1,5 +1,5 @@
 {
-  "name": "promise-json",
+  "name": "true-json-promise",
   "version": "1.0.0",
   "description": "A javascript library that aims to make JSON.stringify not block the event loop.",
   "main": "index.js",
