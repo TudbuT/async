@@ -4,7 +4,7 @@ async function loop(array, call) {
     async function step(n) {
         if(n == array.length)
             return;
-        await call(array[n]);
+        await call(n);
         await new Promise((resolve) => setImmediate(async () => {await step(n+1); resolve()}));
     }
     await step(0);
