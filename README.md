@@ -19,8 +19,9 @@ This is done by re-writing part of the JSON stringifier to use setImmediate inst
 By doing this, for each item that's serialized the event loop executes once, causing other code to be able
 to run at the same time.
 
-## A javascript library that aims to make JSON.stringify not block the event loop.
+### A javascript library that aims to make JSON.stringify not block the event loop.
 
 
-### Gallery of shame
+## Gallery of shame
 ![image](https://user-images.githubusercontent.com/48156391/168308154-0733d608-be0a-4781-a0e8-d71a528a8562.png)
+![image](https://user-images.githubusercontent.com/48156391/168308337-6a4c6524-4333-431f-93ff-4c5649e6878a.png)
